@@ -13,7 +13,6 @@ A compact C++ array whose elements' length can be arbitrary **bits** (<64).
         bit_array<3, 4> b;
         b[0] = a[0] = 22;
         printf("%ld %ld\n", a.get(0), uint64_t(b[0]));
-        printf("type:%ld %ld\n", a.array_type(), b.array_type());
         printf("%ld\n", sizeof(bit_array<3, 4>));
         printf("%ld\n", sizeof(bit_array<4, 4>));
         printf("%ld\n", sizeof(bit_array<6, 4>));
